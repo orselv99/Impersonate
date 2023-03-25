@@ -6,6 +6,8 @@
 - But if you create a token of a non-elevated process running with privileges belonging to the Administrators group, clone and make it an impersonated token to create a process, it will run as an elevated process.
 
 ## References
+- Named Pipe
+    - https://learn.microsoft.com/en-us/dotnet/standard/io/how-to-use-named-pipes-for-network-interprocess-communication
 - Windows Service
     - https://learn.microsoft.com/en-us/dotnet/framework/windows-services/how-to-install-and-uninstall-services
 - Impersonated token
