@@ -1,6 +1,6 @@
 ﻿namespace Impersonate
 {
-    partial class Service1
+    partial class Service
     {
         /// <summary> 
         /// 필수 디자이너 변수입니다.

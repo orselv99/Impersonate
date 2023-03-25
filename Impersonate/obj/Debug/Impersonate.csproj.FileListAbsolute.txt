@@ -1,0 +1,8 @@
+C:\Users\orsel\Documents\Repo\Impersonate\Impersonate\bin\Debug\Impersonate.exe.config
+C:\Users\orsel\Documents\Repo\Impersonate\Impersonate\bin\Debug\Impersonate.exe
+C:\Users\orsel\Documents\Repo\Impersonate\Impersonate\bin\Debug\Impersonate.pdb
+C:\Users\orsel\Documents\Repo\Impersonate\Impersonate\obj\Debug\Impersonate.csproj.AssemblyReference.cache
+C:\Users\orsel\Documents\Repo\Impersonate\Impersonate\obj\Debug\Impersonate.csproj.SuggestedBindingRedirects.cache
+C:\Users\orsel\Documents\Repo\Impersonate\Impersonate\obj\Debug\Impersonate.csproj.CoreCompileInputs.cache
+C:\Users\orsel\Documents\Repo\Impersonate\Impersonate\obj\Debug\Impersonate.exe
+C:\Users\orsel\Documents\Repo\Impersonate\Impersonate\obj\Debug\Impersonate.pdb
