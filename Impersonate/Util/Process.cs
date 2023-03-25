@@ -175,8 +175,9 @@ namespace Impersonate.Util
 
         public static Process Start(string application_name, string command_line)
         {
-            // user session_id 를 확인하기위해 service 와 통신하는 process 를 찾아서 process_id 를 확인 //PROCESS_ON_USER_SESSION
-            var processes = Process.GetProcessesByName("PipeTest");
+            // user session_id 를 확인하기위해 service 와 통신하는 process 를 찾아서 process_id 를 확인
+            // ** 반드시 administrator group 에 속한 프로세스여야 함
+            var processes = Process.GetProcessesByName("{NON_ELEVATED_PROCESS_BUT_BELONGING_TO_ADMINGROUP}");
             if (processes.Length == 0)
             {
                 throw new Win32Exception();

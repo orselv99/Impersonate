@@ -65,7 +65,7 @@ namespace Impersonate.Util
                             /* TODO: 프로토콜을 만들어 처리 */
 
                             // 실행할 process 와 parameter 전달
-                            var process = this.method("{PROCESS}", "{PARAMETERS}");
+                            var process = this.method("{PROCESS_YOU_WANT_TO_ELEVATE}", "{PARAMETERS}");
                         }
 
                         break;
