@@ -1,9 +1,10 @@
 # Impersonate
-- Avoiding User Access Control (UAC) but launching an elevated process.
+- User Access Control (UAC) 가 필요한 프로세스 실행시 UAC 창을 회피하기 위함.
 
 ## Implementation
-- When a process is created using a Windows Service, the process runs with service privileges. 
-- But if you create a token of a non-elevated process running with privileges belonging to the Administrators group, clone and make it an impersonated token to create a process, it will run as an elevated process.
+- 서비스를 이용하여 실행하면, 프로세스는 서비스 권한으로 실행된다.
+- 관리자 그룹에 속한 권한을 갖고 실행된 프로세스 (일반적인 로그온 유저) 의 토큰을 생성하여 가장토큰으로 복제하여 이를 가지고 프로세스를 실행한다.
+- 서비스 권한이 아닌 관리자 권한으로 승격하여 프로세스를 실행할 수 있다.
 
 ## References
 - Named Pipe
